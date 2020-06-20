@@ -25,7 +25,7 @@
           "phone": "1234567897",
           "age": "Adult",
           "image": null,
-          "accountId": "1",
+          "accountId": 1,
           "account": null
         },
         {
@@ -40,7 +40,7 @@
           "phone": "7894561231",
           "age": "Adult",
           "image": null,
-          "accountId": "1",
+          "accountId": 1,
           "account": null
         }
       ],
@@ -50,7 +50,7 @@
           "cardExpirationDate": "2020-06-20T00:00:00",
           "cardNumber": "789456123789456",
           "cardName": "Master",
-          "accountId": "1",
+          "accountId": 1,
           "account": null
         },
         {
@@ -66,7 +66,7 @@
   ],
   "Profile": [
     {
-      "id": 7,
+      "id": 1,
       "email": "TKing@gmail.com",
       "name": {
         "id": 7,
@@ -77,11 +77,11 @@
       "phone": "1234567897",
       "age": "Adult",
       "image": null,
-      "accountId": "1",
+      "accountId": 1,
       "account": null
     },
     {
-      "id": 8,
+      "id": 1,
       "email": "Anon@gmail.com",
       "name": {
         "id": 8,
@@ -92,13 +92,13 @@
       "phone": "7894561231",
       "age": "Adult",
       "image": null,
-      "accountId": "1",
+      "accountId": 1,
       "account": null
     }
   ],
   "Payment": [
     {
-      "id": 7,
+      "id": 1,
       "cardExpirationDate": "2020-06-20T00:00:00",
       "cardNumber": "789456123789456",
       "cardName": "Master",
@@ -106,7 +106,7 @@
       "account": null
     },
     {
-      "id": 9,
+      "id": 1,
       "cardExpirationDate": "2020-06-27T00:00:00",
       "cardNumber": "378734493671000",
       "cardName": "Amex",
