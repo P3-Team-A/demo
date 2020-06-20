@@ -1,4 +1,20 @@
-[
+{
+  "Account": {
+    "id": 1,
+    "address": {
+      "id": 1,
+      "city": "Dallas",
+      "country": "US",
+      "postalCode": "77777",
+      "stateProvince": "Texas",
+      "street": "123 testing st.",
+      "unit": "34"
+    },
+    "name": "Lucy Coupling",
+    "payments": null,
+    "profiles": null
+  },
+  "Profile": [
     {
       "id": 7,
       "email": "TKing@gmail.com",
@@ -29,4 +45,23 @@
       "accountId": 1,
       "account": null
     }
+  ],
+  "Payment": [
+    {
+      "id": 7,
+      "cardExpirationDate": "2020-06-20T00:00:00",
+      "cardNumber": "789456123789456",
+      "cardName": "Master",
+      "accountId": 1,
+      "account": null
+    },
+    {
+      "id": 9,
+      "cardExpirationDate": "2020-06-27T00:00:00",
+      "cardNumber": "378734493671000",
+      "cardName": "Amex",
+      "accountId": 1,
+      "account": null
+    }
   ]
+}
