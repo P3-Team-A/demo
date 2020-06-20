@@ -1,19 +1,69 @@
 {
-  "Account": [{
-    "id": 1,
-    "address": {
+  "Account": [
+    {
       "id": 1,
-      "city": "Dallas",
-      "country": "US",
-      "postalCode": "77777",
-      "stateProvince": "Texas",
-      "street": "123 testing st.",
-      "unit": "34"
-    },
-    "name": "Lucy Coupling",
-    "payments": null,
-    "profiles": null
-  }],
+      "address": {
+        "id": 1,
+        "city": "Dallas",
+        "country": "US",
+        "postalCode": "77777",
+        "stateProvince": "Texas",
+        "street": "123 testing st.",
+        "unit": "34"
+      },
+      "name": "Lucy Coupling",
+      "profiles": [
+        {
+          "id": 7,
+          "email": "TKing@gmail.com",
+          "name": {
+            "id": 7,
+            "family": "King",
+            "given": "Tiger",
+            "profileId": 7
+          },
+          "phone": "1234567897",
+          "age": "Adult",
+          "image": null,
+          "accountId": 1,
+          "account": null
+        },
+        {
+          "id": 8,
+          "email": "Anon@gmail.com",
+          "name": {
+            "id": 8,
+            "family": "Man",
+            "given": "Anon",
+            "profileId": 8
+          },
+          "phone": "7894561231",
+          "age": "Adult",
+          "image": null,
+          "accountId": 1,
+          "account": null
+        }
+      ],
+      "payments": [
+        {
+          "id": 7,
+          "cardExpirationDate": "2020-06-20T00:00:00",
+          "cardNumber": "789456123789456",
+          "cardName": "Master",
+          "accountId": 1,
+          "account": null
+        },
+        {
+          "id": 9,
+          "cardExpirationDate": "2020-06-27T00:00:00",
+          "cardNumber": "378734493671000",
+          "cardName": "Amex",
+          "accountId": 1,
+          "account": null
+        }
+      ]
+    }
+  ],
   "Profile": [
     {
       "id": 7,
